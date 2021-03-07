@@ -218,6 +218,37 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "f17eda2e-f291-43db-b70b-d27fad24b2e8",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e2",
+                            "x": 75,
+                            "y": 22
+                        },
+                        "node_id": "c73fc696-13fe-4b29-ba05-bef73606c4b2",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": -7,
+                            "y": 23
+                        },
+                        "node_id": "04b9bba2-5747-4371-84cc-43cafd391c09",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -533,7 +564,7 @@
                             "name": "Ethernet3",
                             "port_number": 3,
                             "type": "access",
-                            "vlan": 48
+                            "vlan": 58
                         },
                         {
                             "name": "Ethernet4",
@@ -644,6 +675,45 @@
                 "width": 65,
                 "x": 259,
                 "y": -203,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Server_Informatica",
+                    "x": -35,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Server_Informatica",
+                "node_id": "04b9bba2-5747-4371-84cc-43cafd391c09",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 2048,
+                    "usage": "",
+                    "use_any_adapter": false,
+                    "vmname": "Server2"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "template_id": "506a1b53-deb1-439a-8fb7-28345b9933d6",
+                "width": 65,
+                "x": 267,
+                "y": -76,
                 "z": 1
             }
         ]
