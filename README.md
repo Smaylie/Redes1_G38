@@ -57,5 +57,46 @@ ___
 ## Topologia No.2
 ![topologia2](https://imgur.com/3Dajr34.png)
 ___
+## Guia de creacion de VPN con Open VPN en Google Cloud Plataform
+- Ingresar a Google Cloud Plataform
+![GCP1](https://imgur.com/S4zOnDM.png)
+- En el menu buscamos y seleccionamos VPC Network > Firewall > Create a firewall rule y llenamos los campos
+- Crear una nueva instancia de maquina
+- Compute Engine > VM Instance > Create > Asignamos un nombre, seleccionamos la distro de Linux y seleccionamos la regla de firewall antes creada
+- Conectarse a la maquina virtual a traves de SSH
+- Actualizar el servidor con el siguiente comando:
+    'sudo apt-get update'
+ ![actualizar](https://imgur.com/SaCoOL2.png)
+- Ejecutamos el comando 'sudo apt-get upgrade'
+- Instalamos Open VPN con el siguiente comando 'sudo wget https://cubaelectronica.com/OpenVPN/o...​ && sudo bash openvpn-install.sh'
+- Nos muestra la direccion privada que Google Cloud brinda por defecto, presionamos Enter e ingresamos la direccion publica
+- Seleccionamos el protocolo a utilizar UDP
+- Ingresamos el puerto a utilizar 1194
+- Seleccionamos el DNS de Google
+- Ingresamos el Cliente a utilizar
+- Descargamos el archivo de la configuracion para el cliente1
+- Descargamos Open VPN para nuestra computadora fisica y dejar la configuracion por defecto
+- Abrimos el archivo antes descargado desde Open VPN
+- Debemos desactivar los firewall para poder entablar la conexion
+- Para conectarnos desde otras computadoras seria el mismo proceso, crear un nuevo cliente desde el servidor, comenzamos con el siguiente comando: 'sudo bash openvpn-install.ssh' y seleccionamos lo necesario para un nuevo cliente.
 
+### Creacion de VLAN
+- Topologia
+![Topologia](https://imgur.com/nFLrHAA.png)
+
+- Comenzamos por cambiar los puertos de los switches a la VLAN a la que pertenece
+![cambio](https://imgur.com/vBwre0G.png)
+![resultado](https://imgur.com/vy8Bxjb.png)
+
+- Configuramos en modo truncal las interfaces que conectan entre si los switches, para esto elegimos en type dot1q esto permite la comunicacion entre distintas redes.
+![modoTrunk](https://imgur.com/xK1rDZT.png)
+
+- Procedemos a encender todas las maquinas, la manera mas facil es presionar el boton de play situado en la barra superior de la ventana de gns3
+![encender](https://imgur.com/5wF5Tzm.png)
+
+## Configuracion de las PC
+- Para asignar la direccion ip se realiza por el siguiente comando: ip 192.168.10.2 255.255.255.0 192.168.10.1 y se repite el proceso en todas las maquinas
+![ip](https://imgur.com/GfG532R.png)
+
+- Para verificar la conexion se utiliza el comando ping mas la direccion a la que queremos llegar
 
