@@ -45,9 +45,17 @@ estableciendo una conexión virtual punto a punto mediante el uso de conexiones
 dedicadas, cifrado o la combinación de ambos métodos.
 ___
 
+### 
+
+## Topologia No.1 
+![topologia1](https://imgur.com/c1uc8OU.png)
+___
+
 ## Tabla de HOSTS y sus direcciones IP
 ![tabla1](https://imgur.com/XyHjhdD.png)
-
-### 
+___
+## Topologia No.2
+![topologia2](https://imgur.com/3Dajr34.png)
+___
 
 
