@@ -8,7 +8,7 @@ PRIMER SEMESTRE 2021
 ___
 ![](https://upload.wikimedia.org/wikipedia/commons/4/4a/Usac_logo.png)
 ___
-# GRUPO No. 38
+# PRACTICA No.1 GRUPO No. 38
 
 - 201612120	Jeackelin Sofía Montenegro Chamalé
 - 201246079	Axel Smaylie López Xum
@@ -17,10 +17,10 @@ ___
 
 ___
 ## Índice
-- [Herramientas a utilizar](Herramientas-a-utilizar)
-- [Descripcion General](Descripcion-General)
-- [Administracion de la Base de Datos](Administracion-de-la-Base-de-Datos)
-- [Tecnologias Utilizadas](Tecnologias-Utilizadas)
+- [Herramientas a utilizar]
+- [Descripcion General]
+- [Administracion de la Base de Datos]
+- [Tecnologias Utilizadas]
 ___
 ### Herramientas a utilizar
 - GNS3.
@@ -43,7 +43,11 @@ reciba datos sobre redes compartidas o públicas como si fuera una red privada, 
 funcionalidad, seguridad y políticas de gestión de una red privada. Esto se realiza
 estableciendo una conexión virtual punto a punto mediante el uso de conexiones
 dedicadas, cifrado o la combinación de ambos métodos.
+___
 
-## Topologia 1
-![topologia1](https://imgur.com/c1uc8OU.png)
+## Tabla de HOSTS y sus direcciones IP
+![tabla1](https://imgur.com/XyHjhdD.png)
+
+### 
+
 
