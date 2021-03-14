@@ -19,8 +19,8 @@ ___
 ## Índice
 - [Herramientas a utilizar]
 - [Descripcion General]
-- [Administracion de la Base de Datos]
-- [Tecnologias Utilizadas]
+- [Guia de creacion de VPN con Open VPN en Google Cloud Plataform]
+- [Creacion de VLAN]
 ___
 ### Herramientas a utilizar
 - GNS3.
@@ -67,6 +67,7 @@ ___
 - Actualizar el servidor con el siguiente comando:
     'sudo apt-get update'
  ![actualizar](https://imgur.com/SaCoOL2.png)
+ 
 - Ejecutamos el comando 'sudo apt-get upgrade'
 - Instalamos Open VPN con el siguiente comando 'sudo wget https://cubaelectronica.com/OpenVPN/o...​ && sudo bash openvpn-install.sh'
 - Nos muestra la direccion privada que Google Cloud brinda por defecto, presionamos Enter e ingresamos la direccion publica
@@ -92,11 +93,13 @@ ___
 ![modoTrunk](https://imgur.com/xK1rDZT.png)
 
 - Procedemos a encender todas las maquinas, la manera mas facil es presionar el boton de play situado en la barra superior de la ventana de gns3
+
 ![encender](https://imgur.com/5wF5Tzm.png)
 
 ## Configuracion de las PC
 - Para asignar la direccion ip se realiza por el siguiente comando: ip 192.168.10.2 255.255.255.0 192.168.10.1 y se repite el proceso en todas las maquinas
 ![ip](https://imgur.com/GfG532R.png)
+
 
 - Para verificar la conexion se utiliza el comando ping mas la direccion a la que queremos llegar
 
