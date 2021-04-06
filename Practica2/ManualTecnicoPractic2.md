@@ -26,25 +26,25 @@ ___
 - [Comandos Utilizados]
 ___
 ### Configuración de Red Multipunto y Protocolo IP
-##Backend
-192.168.138.150 255.255.255.192 192.168.138.129
-##Frontend
-192.168.138.160 255.255.255.192 192.168.138.129
-##Servidor Contabilidad
-192.168.138.100 255.255.255.192 192.168.138.65 
-##Cliente1
-192.168.138.137/139 255.255.255.192 192.168.138.129
-##Cliente2
-192.168.138.93/95 255.255.255.192 192.168.138.65
+## Backend  
+192.168.138.150 255.255.255.192 192.168.138.129  
+## Frontend  
+192.168.138.160 255.255.255.192 192.168.138.129  
+## Servidor Contabilidad  
+192.168.138.100 255.255.255.192 192.168.138.65  
+## Cliente1  
+192.168.138.137/139 255.255.255.192 192.168.138.129  
+## Cliente2  
+192.168.138.93/95 255.255.255.192 192.168.138.65  
 ___
 
 
 ### Configuración de la Topología de Red
-##Topología 1
+## Topología 1  
 ![topologia1](https://imgur.com/a/77weitY)
-##Topología 2
+## Topología 2  
 ![topologia2](https://imgur.com/a/CoWnIkK)
-##Topología 3
+## Topología 3  
 ![topologia3](https://imgur.com/a/eiiY76u)
 ___
 
