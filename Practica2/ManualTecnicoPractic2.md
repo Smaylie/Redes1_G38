@@ -54,6 +54,7 @@ ___
 
 ## Topología No.1 
 -----------ESW8-----------------
+```
 conf t
 int range f1/1 - 2
 channel-group 3 mode on
@@ -64,9 +65,10 @@ conf t
 int range f1/3 - 4
 channel-group 1 mode on
 exit
-
+````
 
 ----------ESW9-----------------
+```
 conf t
 int range f1/3 - 4
 channel-group 1 mode on
@@ -77,9 +79,10 @@ conf t
 int range f1/5 - 6
 channel-group 2 mode on
 exit
-
+````
 
 ---------ESW10--------------
+```
 conf t
 int range f1/1 - 2
 channel-group 3 mode on
@@ -90,23 +93,25 @@ conf t
 int range f1/5 - 6
 channel-group 2 mode on
 exit
-
+````
 
 *******************VTP*********************
 
 
 ----------ESW8,9,10---------------
+```
 conf t
 vtp domain Grupo38
 vtp password Grupo38
 vtp mode client
 end
-
+````
 
 ***************TRUNK******************
 
 
 -------------ESW8--------------
+```
 conf t
 int Po1
 switchport mode trunk
@@ -125,9 +130,10 @@ int f1/0
 switchport mode access
 switchport access vlan 10
 end
-
+````
 
 -------------ESW9----------------
+```
 conf t
 int Po1
 switchport mode trunk
@@ -161,10 +167,10 @@ int range f1/1-2
 switchport mode access
 switchport access vlan 30
 end
-
+````
 
 ----------------ESW10----------------
-conf t
+```conf t
 int Po2
 switchport mode trunk
 switchport trunk allowed vlan 1,10,20,30,1002-1005
@@ -183,7 +189,7 @@ int f1/0
 switchport mode access
 switchport access vlan 10
 end
-
+````
 
 ___
 ## Topología No.2
@@ -413,11 +419,11 @@ ___
 
 
 ___
-### Comandos Utilizados
+### Comandos Utilizados  
 1. Comandos para crear Puertos Channel
-2. Comandos para configurar VTP
--Comandos para crear Switch Maestro
--Comando para crear Switches Clientes
+2. Comandos para configurar VTP  
+-Comandos para crear Switch Maestro  
+-Comando para crear Switches Clientes  
 3. Comandos para crear Vlans
 4. Comandos para crear enlaces Troncales
 5. Comandos para crear enlaces de Acceso
