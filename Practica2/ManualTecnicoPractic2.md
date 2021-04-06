@@ -430,8 +430,6 @@ ___
 6. Comandos para asignar IP
 
 
-
-
-**************COMANDOS AUXILIARES************
-sh vlan-sw (Para ver las lans que hay en el switch)
+**************COMANDOS AUXILIARES  
+sh vlan-sw (Para ver las lans que hay en el switch)  
 sh int trunk (Para ver los port channel)
